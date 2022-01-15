@@ -1,0 +1,4 @@
+romimage: file="/usr/share/bochs/BIOS-bochs-latest", address=0xfffe0000
+vgaromimage: file="/usr/share/bochs/VGABIOS-lgpl-latest"
+floppya: 1 _44=bin/sapphire.iso, status=inserted
+boot: a
