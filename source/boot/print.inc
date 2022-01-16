@@ -3,8 +3,7 @@
 
 ; BIOS print interaction utilities
 
-[org 0x7c00]    ; offset local addresses by 0x7c00, as defined by the BIOS
-[bits 16]       ; target 16-bit code
+[bits 16]               ; target 16-bit code
 
 %define stack_ops   0   ; Enable/disable bios functions pushing/restoring registers
                         ; ^ Added because the boot-sector (currently) doesn't need to push/pop 

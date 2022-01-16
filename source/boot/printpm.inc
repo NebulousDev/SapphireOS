@@ -19,6 +19,8 @@ cursor_y db 0           ; Y position of cursor
 
 %if pm_funcs
 
+global _bios_print_pm
+
 ; Prints a string loaded in ESI to the BIOS 'console' from protected mode
 ; WARNING: this function does not check for end of video buffer!
 ;          (nor if video buffer is correct address)

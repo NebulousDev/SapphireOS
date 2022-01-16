@@ -1,8 +1,7 @@
 ; Sapphire OS
 ; Ben Ratcliff 2022
 
-[org 0x7c00]
-[bits 16]
+[bits 16]               ; target 16-bit code
 
 %define stack_ops   0   ; Enable/disable bios functions pushing/restoring registers
                         ; ^ Added because the boot-sector (currently) doesn't need to push/pop 

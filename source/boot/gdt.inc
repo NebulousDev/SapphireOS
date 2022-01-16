@@ -3,8 +3,7 @@
 
 ; Segment discriptor structure found here: https://en.wikipedia.org/wiki/Segment_descriptor
 
-[org 0x7c00]
-[bits 16]
+[bits 16]           ; target 16-bit code
 
 ; Basic 'flat-model' Global Descriptor Table:
 
